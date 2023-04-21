@@ -1,3 +1,37 @@
+.primary {
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #007bff;
+}
+.primary:hover {
+  background-color: #0062cc;
+}
 
+.error {
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #d74545;
+}
+.error:hover {
+  background-color: #c02929;
+}
+
+.warning {
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #f68a1c;
+}
+.warning:hover {
+  background-color: #d67009;
+}
 
 /*# sourceMappingURL=button.css.map */

@@ -1,1 +1,26 @@
+//color codes for buttons
+//----->primary :#1D95D6
+//----->error :#D74545
+//----->warning :#F68A1C
+//------>info :#1D95D6
+@mixin btn($bg: bg) {
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: $bg;
 
+  &:hover {
+    background-color: darken($bg, 10%);
+  }
+}
+.primary {
+  @include btn(#007bff);
+}
+.error {
+  @include btn(#d74545);
+}
+.warning {
+  @include btn(#f68a1c);
+}
