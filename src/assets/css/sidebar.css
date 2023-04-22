@@ -1,0 +1,54 @@
+.sidebar-hidden {
+  min-height: 100vh;
+  max-width: 10rem;
+  min-width: 10rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  border: 1px solid rgb(163, 160, 160);
+  transform: translateX(-300px);
+  transition: all 1s ease-in-out;
+}
+
+.sidebar-shown {
+  min-height: 100vh;
+  max-width: 10rem;
+  min-width: 10rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  border: 1px solid rgb(163, 160, 160);
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+}
+
+.sidebar-hidden-right {
+  min-height: 100vh;
+  max-width: 10rem;
+  min-width: 10rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  border: 1px solid rgb(163, 160, 160);
+  transform: translateX(300px);
+  float: right;
+  transition: all 1s ease-in-out;
+}
+
+.sidebar-shown-right {
+  min-height: 100vh;
+  max-width: 10rem;
+  min-width: 10rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  border: 1px solid rgb(163, 160, 160);
+  float: right;
+  transition: all 1s ease-in-out;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

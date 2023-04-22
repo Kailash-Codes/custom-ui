@@ -1,9 +1,10 @@
 import "../assets/css/button.css";
 import React from "react";
 
-const Button = ({ children, background }) => {
+const Button = ({ children, background,onClick }) => {
   return (
     <button
+    onClick={onClick}
       className={
         background === "blue"
           ? "primary"
