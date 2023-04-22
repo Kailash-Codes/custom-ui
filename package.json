@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "scss-button" : "sass -w ./src/assets/scss/button.scss  ./src/assets/css/button.css" , 
+    "scss-sidebar" : "sass -w ./src/assets/scss/sidebar.scss  ./src/assets/css/sidebar.css" , 
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
